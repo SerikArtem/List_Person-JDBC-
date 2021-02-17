@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>All people</title>
+    <link th:href="@{/resources/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation_button">
+        <form action="/index">
+            <input type="submit" value="&larr; To the main" class="button_head">
+        </form>
+    </div>
+    <div class="title_enum">List people:</div>
+    <div th:each="person : ${people}">
+        <a th:href="@{/people/{id}(id=${person.getIdPerson()})}" th:text="${person.getSurnamePerson()} + ' ' + ${person.getNamePerson()}">person</a>
+    </div>
+    <br/>
+    <form action="/people/new">
+        <input type="submit" value="Add new person" class="button">
+    </form>
+</body>
+</html>

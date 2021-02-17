@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit person</title>
+    <link th:href="@{/resources/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation_button">
+        <form action="/index" class="form">
+            <input type="submit" value="To the main" class="button_head">
+        </form>
+        <form action="/people" class="form">
+            <input type="submit" value="Show all person" class="button_head">
+        </form>
+        <form th:action="@{/people/{id}(id=${personUpdate.getIdPerson()})}" class="form">
+            <input type="submit" value="&larr; Back to person" class="button_head">
+        </form>
+    </div>
+
+    <div class="title_enum">Edit this person:</div>
+    <form th:method="PATCH" th:action="@{/people/{id}(id=${personUpdate.getIdPerson()})}" th:object="${personUpdate}">
+
+        <label for="surname">Enter new surname:</label><br/>
+        <input type="text" th:field="*{surnamePerson}" id="surname" class="text_field" required>
+        <br/><br/>
+
+        <label for="name">Enter new name: </label><br/>
+        <input type="text" name="" th:field="*{namePerson}" id="name" class="text_field" required>
+        <br/><br/>
+
+        <lable for="age">Enter new age:</lable><br/>
+        <input type="text" th:field="*{agePerson}" id="age" class="text_field" required>
+        <br/><br/>
+
+        <label for="address">Enter new address:</label><br/>
+        <input type="text" th:field="*{addressPerson}" id="address" class="text_field" required>
+        <br/><br/>
+
+        <label for="phone">Enter new phone:</label><br/>
+        <input type="text" th:field="*{phonePerson}" id="phone" class="text_field" required>
+        <br/><br/>
+
+        <label for="idPositionTransient">Enter new position:</label><br/>
+        <!--   Интересный момент! Для того чтобы работал th:selected необходимо th:field заменить атрибутами id и name.
+        Интерес в том, что когда мы осуществили эту замену, то данные выбранного элемента списка так же успешно
+        сохраняются в поле idPositionTransient объекта типа Person, как если бы мы использовали th:field="*{idPositionTransient}"
+        вместо id="idPositionTransient" name="idPositionTransient"   -->
+
+        <!--<select th:field="*{idPositionTransient}" id="position" class="select_field" required>-->
+        <select id="idPositionTransient" name="idPositionTransient" class="select_field" required>
+            <option th:each="objectPosition : ${listObjectsPositions}"
+                    th:value="${objectPosition.idPosition}"
+                    th:text="${objectPosition.namePosition}"
+                    th:selected="${objectPosition.idPosition==personUpdate.getPosition().getIdPosition()}">
+                    <!--Selected будет установлен в той строке option, где выполниться условие A=B  (th:selected="${A==B}">) -->
+            </option>
+        </select>
+        <br/><br/>
+
+        <input type="submit" value="Update person" class="button">
+    </form>
+
+</body>
+</html>

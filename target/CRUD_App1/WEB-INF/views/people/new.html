@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New person</title>
+    <link th:href="@{/resources/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation_button">
+        <form action="/index" class="form">
+            <input type="submit" value="To the main" class="button_head">
+        </form>
+        <form action="/people" class="form">
+            <input type="submit" value="&larr; Show all person" class="button_head">
+        </form>
+    </div>
+
+    <div class="title_enum">Add the new person:</div>
+    <form th:method="POST" th:action="@{/people}" th:object="${person}">
+
+        <label for="surname">Surname:</label><br/>
+        <input type="text" th:field="*{surnamePerson}" id="surname" class="text_field" required>
+        <br/><br/>
+
+        <label for="name">Name:</label><br/>
+        <input type="text" th:field="*{namePerson}" id="name" class="text_field" required>
+        <br/><br/>
+
+        <lable for="age">Age:</lable><br/>
+        <input type="text" th:field="*{agePerson}" id="age" class="text_field" required>
+        <br/><br/>
+
+        <label for="address">Address:</label><br/>
+        <input type="text" th:field="*{addressPerson}" id="address" class="text_field" required>
+        <br/><br/>
+
+        <label for="phone">Phone:</label><br/>
+        <input type="text" th:field="*{phonePerson}" id="phone" class="text_field" required>
+        <br/><br/>
+
+        <label for="position">Position:</label><br/>
+        <select th:field="*{idPositionTransient}" id="position" class="select_field" required>
+            <option value=""></option>
+            <option th:each="objectPosition : ${listObjectsPositions}"
+                    th:value="${objectPosition.idPosition}"
+                    th:utext="${objectPosition.namePosition}"></option>
+        </select>
+        <br/><br/>
+
+        <input type="submit" value="Create person" class="button">
+    </form>
+</body>
+</html>

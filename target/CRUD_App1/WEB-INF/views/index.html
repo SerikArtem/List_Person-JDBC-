@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link th:href="@{/resources/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div id="background_main">
+        <div id="title_main_1">WELCOME</div>
+        <div id="title_main_2">TO MY APPLICATION</div>
+
+        <div id="block_button_main">
+            <form action="/people" class="form">
+                <input type="submit" value="Show people list" class="button">
+            </form>
+
+            <form action="/positions" class="form">
+                <input type="submit" value="Show positions list" class="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

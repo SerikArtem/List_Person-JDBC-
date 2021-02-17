@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Person</title>
+    <link th:href="@{/resources/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation_button">
+        <form action="/index" class="form">
+            <input type="submit" value="To the main" class="button_head">
+        </form>
+        <form action="/people" class="form">
+            <input type="submit" value="&larr; Show all person" class="button_head">
+        </form>
+    </div>
+
+    <div class="title_enum">Personal data:</div>
+
+    <b>ID:</b> <span th:text="${person.getIdPerson()}">id</span><br/>
+    <b>Surname:</b> <span th:text="${person.getSurnamePerson()}">surname</span><br/>
+    <b>Name:</b> <span th:text="${person.getNamePerson()}">name</span><br/>
+    <b>Age:</b> <span th:text="${person.getAgePerson()}">age</span><br/>
+    <b>Address:</b> <span th:text="${person.getAddressPerson()}">address</span><br/>
+    <b>Phone:</b> <span th:text="${person.getPhonePerson()}">phone</span><br/>
+    <b>ID position:</b> <span th:text="${namePosition}"></span><br/>
+
+    <br/><br/>
+    <form th:action="@{/people/{id}/edit(id=${person.getIdPerson()})}" class="form">
+        <input type="submit" value="Edit this person" class="button">
+    </form>
+
+    <form th:method="DELETE" th:action="@{/people/{id}(id=${person.getIdPerson()})}" class="form">
+        <input type="submit" value="Delete this person" class="button">
+    </form>
+</body>
+</html>

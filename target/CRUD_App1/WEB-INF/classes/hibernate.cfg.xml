@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property> <!-- Путь к драйверу MySQL для JDBC -->
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/people_db_jdbc</property>
+        <property name="hibernate.connection.username">artem</property>
+        <property name="hibernate.connection.password">159sql753</property>
+        <property name="hibernate.connection.pool_size">100</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property> <!-- Указываем, какой вариант SQL использовать -->
+        <property name="hibernate.show_sql">false</property> <!-- Отображение запросов к БД в консоли -->
+    </session-factory>
+</hibernate-configuration>

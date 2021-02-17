@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New position</title>
+    <link th:href="@{/resources/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation_button">
+        <form action="/index" class="form">
+            <input type="submit" value="To the main" class="button_head">
+        </form>
+        <form action="/positions" class="form">
+            <input type="submit" value="&larr; Show all positions" class="button_head">
+        </form>
+    </div>
+
+    <div class="title_enum">Add the new position:</div>
+    <form th:method="POST" th:action="@{/positions}" th:object="${position}">
+
+        <label for="name_position">Name position:</label><br/>
+        <input type="text" th:field="*{namePosition}" id="name_position" class="text_field" required>
+        <br/><br/>
+
+        <input type="submit" value="Create position" class="button">
+    </form>
+
+</body>
+</html>

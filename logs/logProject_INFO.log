@@ -1,0 +1,128 @@
+line:44 - [INFO][2020-11-29 17:11:18] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-11-29 17:11:19] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-11-29 17:11:19] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/people_db?serverTimezone=Europe/Moscow]
+line:124 - [INFO][2020-11-29 17:11:19] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=root}
+line:129 - [INFO][2020-11-29 17:11:19] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-11-29 17:11:19] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-11-29 17:11:20] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+line:52 - [INFO][2020-11-29 17:11:20] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:36:09] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:36:09] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:36:09] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:36:09] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:36:09] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:36:09] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:36:10] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:36:10] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:38:36] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:38:43] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:38:43] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:38:43] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:38:43] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:38:43] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:38:43] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:38:44] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:41:42] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:41:43] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:41:43] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:41:43] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:41:43] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:41:43] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:41:43] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:41:44] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:46:19] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:46:20] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:46:20] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:46:20] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:46:20] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:46:20] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:46:21] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:46:21] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:47:59] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:48:00] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:48:00] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:48:00] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:48:00] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:48:00] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:48:01] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:48:01] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:48:45] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:48:46] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:48:46] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:48:46] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:48:46] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:48:46] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:48:46] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:48:47] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:50:24] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:50:25] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:50:25] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:50:25] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:50:25] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:50:25] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:50:25] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:50:26] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 16:51:16] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 16:51:17] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 16:51:17] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 16:51:17] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 16:51:17] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 16:51:17] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 16:51:17] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 16:51:18] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 17:08:58] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 17:08:58] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 17:08:59] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 17:08:59] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 17:08:59] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 17:08:59] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 17:08:59] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 17:09:00] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 17:09:30] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 17:09:31] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 17:09:31] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 17:09:31] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 17:09:31] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 17:09:31] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 17:09:31] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 17:09:32] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 17:10:07] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 17:10:08] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 17:10:08] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 17:10:08] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 17:10:08] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 17:10:08] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 17:10:09] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 17:10:09] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 17:10:44] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 17:10:45] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 17:10:45] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 17:10:45] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 17:10:45] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 17:10:45] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 17:10:45] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 17:10:46] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 17:40:06] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 17:40:07] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 17:40:07] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db]
+line:124 - [INFO][2020-12-13 17:40:07] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 17:40:07] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 17:40:07] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 17:40:07] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 17:40:08] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 17:47:24] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 17:47:24] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 17:47:24] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db_jdbc]
+line:124 - [INFO][2020-12-13 17:47:24] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 17:47:24] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 17:47:24] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 17:47:25] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 17:47:25] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+line:44 - [INFO][2020-12-13 19:54:41] org.hibernate.Version: - HHH000412: Hibernate ORM core version 5.4.22.Final
+line:49 - [INFO][2020-12-13 19:54:43] org.hibernate.annotations.common.Version: - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+line:115 - [INFO][2020-12-13 19:54:43] org.hibernate.orm.connections.pooling: - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/people_db_jdbc]
+line:124 - [INFO][2020-12-13 19:54:43] org.hibernate.orm.connections.pooling: - HHH10001001: Connection properties: {password=****, user=artem}
+line:129 - [INFO][2020-12-13 19:54:43] org.hibernate.orm.connections.pooling: - HHH10001003: Autocommit mode: false
+line:249 - [INFO][2020-12-13 19:54:43] engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: - HHH000115: Hibernate connection pool size: 100 (min=1)
+line:170 - [INFO][2020-12-13 19:54:44] org.hibernate.dialect.Dialect: - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+line:52 - [INFO][2020-12-13 19:54:45] transaction.jta.platform.internal.JtaPlatformInitiator: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
